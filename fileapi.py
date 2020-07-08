@@ -5,7 +5,7 @@ import os
 from hashlib import md5
 from werkzeug.utils import secure_filename
 
-UPLOAD_FOLDER = 'storage'
+UPLOAD_FOLDER = 'store'
 
 app = Flask(__name__)
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
